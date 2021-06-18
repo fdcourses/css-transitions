@@ -22,6 +22,28 @@ li {
   margin: 10px;
   font-size: 16px;
   display: inline-block;
+  position: relative;
+
+    
+  transition: all ease-in-out 0.5s;
+  transition-property: color, background-color;
+}
+
+li::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 0.3em;
+  background: black;
+  position: absolute;
+  top: -7px;
+    
+  transition: all ease-in-out 0.5s;
+}
+
+li:hover::before {
+  width: 100%;
+  background: greenyellow;
 }
 
 a{

@@ -1,0 +1,94 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 5px 10px 1px #000000;
+}
+
+body {
+  min-height: 300vh;
+}
+
+main {
+  margin-top: 80px;
+}
+
+ul {
+  font-size: 0;
+}
+
+li {
+  margin: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid black;
+  /* transition:  2s; */
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+  transition-property: color, background ;
+ 
+  transition-duration: 0.3s;
+
+  /* 
+    linear,
+    ease,
+    ease-in,
+    ease-in-out,
+    ease-out 
+  */
+  transition-timing-function: ease-out ;
+
+
+  /* transition-delay: 0.4s; */
+   /* 
+  
+   */
+
+}
+
+a:hover {
+  background: linear-gradient(180deg, rgb(126, 226, 12) 0%, rgb(144, 130, 100) 100%);
+  color: white;
+}
+
+/* .outer {
+  margin-top: 20px;
+}
+
+.inner {
+  width: 150px;
+  background: black;
+  color: white;
+  font-size: 50px;
+  padding: 20px;
+  margin: 10px 0;
+
+  transition: font-size linear 2s;
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.outer:hover .inner{
+  width: 100%;
+  font-size: 10px;
+} */
